@@ -55,3 +55,14 @@ console.log(Object.entries(obj1))
 
 console.log(obj1.hasOwnProperty('1'))
 console.log(obj1.hasOwnProperty('135'))
+
+//++++++++++++++++++ Destructer ++++++++++++++++++++
+console.log(" Its about Destructer of any object or arry")
+
+const Shop = {
+    shopame: "Sufyan Traders",
+    shopAddress: "Chak No 223/p"
+}
+
+const {shopAddress} = Shop
+console.log(shopAddress) //instead of writting console.log(shop.shopAddress)
